@@ -1,0 +1,21 @@
+name: CI
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
+      - name: Check user github branch repo
+        id: check-github-branch
+        uses: ua-gist-open-source/github-gist604b-actions@v1.0.6
+        with:
+          user: ${{ steps.extract_branch.outputs.branch }}
