@@ -1,10 +1,7 @@
-# Assignment: GitHub Branch and Merge
-## Worth: 20 points
-## Due: 7 days
-
+# Assignment: GitHub Branch
 ## Background
 Read:
-- [Protected Branches](https://help.github.com/en/articles/about-protected-branches)
+- [Branches](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-branches)
 - [Pull requests](https://help.github.com/en/articles/creating-a-pull-request)
 
 This Repo was created with a single, `master` branch, which is protected, meaning you can't commit changes to it. In the
@@ -16,24 +13,15 @@ can the changes be adopted into `master`.
 
 ## Directions
 
-1. (5 pts) Your assignment is to create a new branch named `my-branch` and in that branch, modify this document by entering your 
+1. Your assignment is to create a new branch named `my-branch` and in that branch, modify this document by entering your 
 branch name below:
 
 The name of my branch is: 
 
-2. (5 pts) When you have created your branch with this file modified above, create a *Pull Request* to merge your new branch into `master`.
+2. When you have created your branch with this file modified above, create a *Pull Request* to merge your new branch into `master`.
 Be sure to give a description so that the *Reviewer* knows what you are creating, fixing, deleting, or improving. When you submit 
 your Pull Request you will see that a Review is required and that Merging is blocked.
 
-3. (5 pts) Once you have created your *Pull Request*, I will review it. In my first review, I will look at the `Files changed` and 
-add a comment. You should receive a notification (See your [Settings](https://github.com/settings/notifications)) 
+3. Once you have created your *Pull Request*, I will review it. You should receive a notification (See your [Settings](https://github.com/settings/notifications)) 
 by email that I have commented. Return to the conversation via the email link provided or by navigating to the `Pull requests` tab on this 
 repo. Read my comments and respond. Make sure to `Resolve conversation` to any and all comments that you have addressed.
-
-5. (5 pts) Once you have responded to my comment, I will again review your Pull request. This time, I will ask for specific 
-changes. Return to the conversation via the email link provided or by navigating to the `Pull requests` tab on this 
-repo. Read my comments and note what specific changes need to be made. Make the changes by editing this file ([README.md](README.md)) 
-Navigate to this file from the `Code` tab and edit it directly, then respond in the *Pull Request Conversation* that you have
-made the requested changes. Make sure to `Resolve conversation` to any and all comments that you have addressed.
-
-After you have made the commits to the branch and resolved the conversations I will approve the Pull request and that will complete the assignment.
