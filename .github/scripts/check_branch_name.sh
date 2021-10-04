@@ -14,7 +14,7 @@ if [  "$THIS_BRANCH" != "$EXTRACTED_BRANCH" ]; then
     echo "The branch names should match: \'$THIS_BRANCH\' != \'$EXTRACTED_BRANCH\'"
     exit 1
 fi
-if [  "$THIS_BRANCH" != "my_branch" ]; then
+if [  "$THIS_BRANCH" != "my-branch" ]; then
     echo "The branch name should be: \'my_branch\'"
     exit 1
 fi
