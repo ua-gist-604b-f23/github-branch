@@ -1,0 +1,22 @@
+name: CI
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check user branch name
+        id: check-github-branch
+        uses: goshencollege/validate-branch-name@v1.0.1
+        with:
+          pattern: my-branch
+          
+      - name: Find branch name in README.md
+        uses: nguyenvanuyn96/str-find-action@master
+        with:
+          find: "The name of my branch is: my-branch"
+          include: "README.md"
