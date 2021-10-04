@@ -1,7 +1,5 @@
 #!/bin/sh -l
 
-set -x
-
 THIS_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 EXTRACTED_BRANCH=$(grep 'The name of my branch is: ' README.md | sed 's/The name of my branch is://' | sed 's/^ *//g')
