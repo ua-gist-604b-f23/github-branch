@@ -15,6 +15,6 @@ if [  "$THIS_BRANCH" != "$EXTRACTED_BRANCH" ]; then
     exit 1
 fi
 if [  "$THIS_BRANCH" != "my-branch" ]; then
-    echo "The branch name should be: \'my_branch\'"
+    echo "The branch name should be: 'my-branch'"
     exit 1
 fi
