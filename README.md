@@ -22,6 +22,4 @@ The name of my branch is:
 Be sure to give a description so that the *Reviewer* knows what you are creating, fixing, deleting, or improving. When you submit 
 your Pull Request you will see that a Review is required and that Merging is blocked.
 
-3. Once you have created your *Pull Request*, I will review it. You should receive a notification (See your [Settings](https://github.com/settings/notifications)) 
-by email that I have commented. Return to the conversation via the email link provided or by navigating to the `Pull requests` tab on this 
-repo. Read my comments and respond. Make sure to `Resolve conversation` to any and all comments that you have addressed.
+3. Once you have created your *Pull Request*, let the instructor know and thet will review it. You should receive a notification (See your [Settings](https://github.com/settings/notifications)) 
